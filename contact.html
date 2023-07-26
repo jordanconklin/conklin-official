@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConklinOfficial</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- nav bar -->
+    <div class="header">
+    <div class="container">
+        <div class="navbar">
+        <div class="logo">
+            <img src="Images/C.O.logoBLACK.png">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <!-- <li><a href="">About</a></li>
+                <li><a href="">Account</a></li> --> 
+            </ul>
+        </nav>
+        <img src="Images/cart.png" width="30px" height="30px">
+    </div>
+
+
+<script>
+    //index.js  
+
+function sendEmail() {
+	Email.send({
+	    Host: "smtp.dreamhost.com",
+	    Username : "jordan@caffeinated.org",
+	    Password : "FYSCs0cc3r",
+	    To : 'conklinofficialsoccer@gmail.com',
+	    From : "jordan@caffeinated.org",
+	    Subject : "<email subject>",
+	    Body : "<email body>",
+	}).then(
+		message => alert("mail sent successfully")
+	);
+}
+</script>
+
+
+        <!-- main cover -->
+
+        <div class="row">
+            <div class="col-2">
+                <h1>Ask me a question</h1>
+                <p>This data will be sent to me via email.</p>
+                <p>&nbsp;</p>
+                <p>
+                    <form action="mailto:conklinofficialsoccer@gmail.com" method="post" enctype="text/plain">
+                        Name: <input type="text" name="Name"> <br>
+                        Email: <input type="text" name="Email"> <br>
+                        Question: <input type="text" name="Question"> <br>
+                        Other comments: <input type="text" name="Other"> <br>
+                        <input type="submit" value="Submit">
+                    </form>
+                    <p>&nbsp;</p>
+
+                </p>
+
+            </div>
+            <div class="col-2">
+                <img src="Images/homecover.jpg">
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 3 self picture categories -->
+
+    <div class="catgories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="Images/img1.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="Images/img2.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="Images/img3.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- footer -->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Follow the Conklin Journey</h3>
+                    <p>Follow us on social media for more updates and football advice</p>
+                </div>
+                <div class="footer-col-2">
+                    <img src="Images/C.O.logoWHITE copy.png" alt="">
+                    <p>Here to help YOU become <br>a more confident footballer</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li><a href="https://www.amazon.com/shop/conklinfootball">Amazon Storefront</a></li>
+                        <li><a href="">Our Mission</a></li>
+                        <li><a href="">Return Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li><a href="https://www.tiktok.com/@conklinofficial">TikTok</a></li>
+                        <li><a href="https://www.instagram.com/conklinofficial/">Instagram</a></li>
+                        <li><a href="https://www.youtube.com/channel/UC-5hKmXbLicdUuV0e3Bk1AQ">YouTube</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2023 - ConklinOfficial</p>
+        </div>
+    </div>
+
+    <script scr="./app.js"></script>
+
+
+</body>
+</html>
