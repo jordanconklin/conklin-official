@@ -1,4 +1,4 @@
-**#ConklinOfficial Landing Page**
+**# ConklinOfficial Landing Page**
 
 For users to purchase merchandise and personally communicate with me by scheduling 1-on-1 mentorship calls or sending emails.
 
